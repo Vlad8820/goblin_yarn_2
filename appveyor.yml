@@ -1,0 +1,24 @@
+version: 1.0.{build}
+image: Ubuntu1804
+
+install:
+  - npm install
+
+build_script:
+  - npm run build
+
+test_script:
+  - npm test
+
+artifacts:
+  - path: dist
+    name: Game
+
+deploy:
+  provider: GitHub
+  token:
+    secure: YOUR_GITHUB_TOKEN
+  artifact: Game
+  draft: false
+  on:
+    branch: main
