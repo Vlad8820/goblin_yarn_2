@@ -1,8 +1,8 @@
 import './style.css';
-import Game from './game';
+import Game from './Game';
 
-document.addEventListener('DOMContentLoaded', () => {
-  const gameBoard = document.getElementById('game-board');
-  const game = new Game(gameBoard);
-  game.start();
-});
+const boardElement = document.getElementById('game-board');
+const scoreElement = document.getElementById('score-board');
+const game = new Game(boardElement, scoreElement);
+
+game.start();
