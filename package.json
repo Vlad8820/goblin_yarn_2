@@ -26,7 +26,7 @@
   "name": "goblin_yarn_2",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Vlad8820/DOM.git",
+  "repository": "git@github.com:Vlad8820/goblin_yarn.git",
   "author": "Vlad8820 <vlad882152@gmail.com>",
   "license": "MIT"
 }

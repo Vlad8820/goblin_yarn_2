@@ -6,7 +6,3 @@
 
 [Play the game](https://Vlad8820.github.io/goblin_yarn/)
 
-
-# goblin_yarn
-# goblin_yarn
-# goblin_yarn
