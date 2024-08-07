@@ -17,7 +17,7 @@ artifacts:
 deploy:
   provider: GitHub
   token:
-    secure: YOUR_GITHUB_TOKEN
+    secure: a7AvbpPM6vo5uQtxeXXEL0F7Tkq7h21/ozDW7GFeYkscMgjyYQ9RAiiWoAUjINkB
   artifact: Game
   draft: false
   on:
