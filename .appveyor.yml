@@ -1,6 +1,9 @@
 image: Ubuntu1804  # образ для сборки
 
-stack: node 17  # окружение
+environment:
+  matrix:
+    - nodejs_version: "20"
+
 
 branches:
   only:
@@ -9,6 +12,7 @@ branches:
 cache: node_modules  # кеширование
 
 install:
+- ps: Install-Product node $env:nodejs_20
   - yarn install  # команда установки зависимостей
 
 build: off  # отключаем встроенную в appveyor систему сборки
