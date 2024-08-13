@@ -12,7 +12,6 @@ branches:
 cache: node_modules  # кеширование
 
 install:
-- ps: Install-Product node $env:nodejs_20
   - yarn install  # команда установки зависимостей
 
 build: off  # отключаем встроенную в appveyor систему сборки
