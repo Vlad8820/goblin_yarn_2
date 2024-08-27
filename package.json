@@ -21,6 +21,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "lint": "eslint .",
-    "test": "0"
+    "test": "0",
+    "start": "webpack serve --open"
   }
 }
